@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <style>
+            .all{
+                background-color: turquoise;
+                color: rgb(252, 7, 252);
+                display:none;
+                
+            }
+            @media(max-width:300px){
+                #root1{
+                    display: block;
+                    background-color:turquoise;
+                }}
+                 @media(max-width:600px) and (min-width:301px){
+                #root2{
+                    display: block;
+                    background-color: yellow;
+                }}
+            @media(max-width:900px) and (min-width:601px){
+                #root3{
+                    display: block;
+                    background-color: #199e9e4b;
+                }}
+        </style>
+        <div class="container">
+            <h1 class="all" id="root1">im a mss1</h1>
+            <h1 class="all"id="root2">im a mss2</h1>
+            <h1 class="all"id="root3">im a mss3</h1>
+            <h1 class="all"id="root4">im a mss4</h1>
+        </div>
+    </body>
+</html>
